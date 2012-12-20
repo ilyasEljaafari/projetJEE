@@ -8,9 +8,14 @@
     <h:body>
         Hello from Facelets3
         <h:form>
-           <h:commandLink  action="login">
-            <h:outputText value="login"/>
-            </h:commandLink>
+           <h:commandLink  action="login"
+             id="fr" value="#{AppMessages.french}"  actionListner="#{locale.updateLocale}"
+            />
+           
+           
+            <h:commandLink  action="login"
+             id="ar" value="#{AppMessages.arabic}"  actionListner="#{locale.updateLocale}"
+            />
         </h:form>
     </h:body>
 </html>

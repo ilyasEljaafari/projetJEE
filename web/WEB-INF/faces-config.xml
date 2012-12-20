@@ -12,7 +12,7 @@
             <supported-locale>ar</supported-locale>
         </locale-config>
         <resource-bundle>
-            <base-name>org.ubo.ApplicationMessages</base-name>
+            <base-name>org.ubo.ApplicationMessages-fr</base-name>
             <var>AppMessages</var>
         </resource-bundle>
     </application>
